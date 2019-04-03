@@ -6,3 +6,9 @@
 #logo{
   color: #ffffff;
 }
+#nav{
+  float: left;
+}
+#nav > a{
+  color: #ffffff;
+}
