@@ -6,9 +6,21 @@
 #logo{
   color: #ffffff;
 }
-#nav{
-  float: left;
-}
 #nav > a{
   color: #ffffff;
+}
+.wrap .topBox{
+  display: flex;
+  align-items: center;
+  margin-top:10px; 
+}
+
+.menuList li{
+  width: 50%;
+  transition: all 0.5s; 
+}
+.menuList li:hover{
+  width: 100%;
+  background: pink;
+  border-left:2px red solid;
 }

@@ -17,3 +17,42 @@ ul,li{
 a{
   text-decoration: none
 }
+
+
+.wrapPage{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main{
+  flex: 1;
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* For demo 首页banner*/
+.ant-carousel .slick-slide {
+  text-align: center;
+  width: 680px;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+
+/* you can make up upload button and sample style by using stylesheets */
+.ant-upload-select-picture-card i {
+  font-size: 32px;
+  color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
+}
